@@ -72,3 +72,4 @@ matrix:
           echo $v dmesg ======================== ;
           docker exec -it druid-$v sh -c 'dmesg | tail -3' ;
           done
+ 
